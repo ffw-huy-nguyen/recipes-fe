@@ -2,6 +2,7 @@ import { Header } from "@/components/Header/Header";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import Container from "@mui/material/Container";
 import type { Metadata } from "next";
+import "./globals.scss";
 
 export const metadata: Metadata = {
   title: "Create Next App",
